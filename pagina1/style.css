@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    
+    font-family: "Roboto","sans-serif";
+    
+    background-size: cover;
+    
+   
+    
+}
+ul{
+    list-style: none;  /*Tirando bolinhas da lista*/
+    padding: 0%;
+  
+    
+}
+
+li a {
+    text-decoration: none;
+}
+.menu{ 
+
+    display: flex;
+    position: fixed; /*Deixo o meu menu fixo, assim quando desso a barra de rolagem ela não sobe junto com o conteudo*/
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: 	#AFEEEE;
+    
+   
+   
+    /** Configuração da cor do menu
+    display: flex;
+    position:fixed;
+    height: 40px;
+    width: 100%;
+    background-color: #ff90ab;**/
+
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+   
+}
+.header-nav{
+   display:flex;
+   justify-content: flex-end;
+   width: 100%; 
+   align-items: center;
+   
+}
+    
+
+#container-principal{
+    
+background-color:#FFF5EE;
+display: flex;
+padding-top: 80px;
+justify-content: center;
+
+
+
+
+}
+
+img{  
+width: 100%;
+height: 100%;
+   
+
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+    
+
+}
+.segundo-container{
+   display: flex;
+   gap: 25px; /* Dar espaçamento dentro dos elementos filhos do pai(só funciona com display flex*/
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 50px;
+   
+   
+
+
+}
+@media screen and (max-width: 768px){
+    .segundo-container{
+        flex-direction: column;
+       
+    }
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.segundo-container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.segundo-container a {
+    text-decoration: none;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: rgb(255, 0, 195);;
+}
+
+a:focus {
+    outline: dashed 1px rgb(255, 0, 195);
+    outline-offset: 0.25rem;
+}
+.divcontainer-img{
+    margin-bottom: 20px;
+    max-width: 300px;
+    padding: 40px;
+    background: radial-gradient(#e66465, #9198e5);
+
+}
+
+
+.footer-img{
+    height: 40px;
+    width: 40px;
+}
+.footer{
+ display: flex;
+
+ background-color: 	#AFEEEE;
+
+
+
+   
+}
+
+.lista-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    /*A propriedade whdth só funciona se eu tiver o JUSTIFY-CONTENT:SPACE-EVENLY
+    ou seja, ele da um espaço entre o conteudo*/
+
+    
+}
+.footer-nav{
+    display:flex;
+    justify-content: flex-end;
+    width: 55%;
+    margin-top: 20px;
+    
+}
+.ancora{
+    width: 100%;
+    height: 50%;
+}
+
+    
+   
+
